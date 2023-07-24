@@ -1,0 +1,28 @@
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+img{
+    padding:var(--spacing);
+    background-color: var(--base);
+    filter:blur(var(--blur));
+}
+.hl{
+    color: var(--base);
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+color:white;
+font-weight:60 ;
+font-size:30px; 
+}
+.controls{
+    margin-bottom: 50px;
+}
+img{
+    width:450px;
+    height:300px;
+}
