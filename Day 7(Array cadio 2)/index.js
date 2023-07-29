@@ -27,11 +27,17 @@ const myArray = [
 
 
 //Array.find()
-console.log(typeof peopleArray)
-const findId= peopleArray.find(function(person)
-{ if(person.id===2)
-    return true;
-}
-)
+// const findId= myArray.find(function(person)
+// { if(person.id===2)
+//     return true;
+// }
+// )
 
-console.log({findId});
+const findId =myArray.findIndex((person)=>{
+  if(  person.id===2)
+  return person;
+    
+})
+myArray.splice(findId,0,{id:4,text:"Hunter"});
+console.table(myArray)
+//console.log({findId});
