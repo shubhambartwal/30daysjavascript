@@ -1,3 +1,11 @@
+@font-face {
+    font-family: domain;
+    src: url(./Advertising\ Script\ Bold\ Trial.ttf);
+}
+*{
+    padding:0px;
+    margin:0px;
+}
 #page1{
     height:100vh;
     width:100vw;
@@ -5,10 +13,128 @@
 position: relative;
 }
 #nav{
-    height:100px;
-    width:100%;
-    background-color: red;
+    height:70px; 
+    /* background-color: red; */
     display: flex;
     align-items: center;
+    padding:0 30px;
+    justify-content: space-between; 
+    border-bottom: 1px solid black;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+     width: 30%;
+}
+#nav i{
+    text-align: right;
+     width: 30%;
+}
+#elems{
+    height:230px;
+    /* background-color: red; */
+    display: flex;
+    align-items:center;
     justify-content: space-between;
+    padding:40px 60px;
+}
+#elem1{
+    width:30%;
+    height:100%;
+    /* background-color: blue; */
+}
+
+#elem2{
+    width:25%;
+    height:100%;
+    /* background-color: blue; */
+    border-right:2px solid #222;
+    border-left:2px solid #222;
+    padding:20px 60px;
+    text-align: center;
+}
+
+#elem3{
+    width:30%;
+    height:100%;
+    /* background-color: blue; */
+}
+#elem1 #image-div{
+    height:60%;
+    width:100%;
+    overflow: hidden;
+}
+
+#elem3 #image-div{
+    height:60%;
+    width:100%;
+    overflow: hidden;
+}
+#image-div img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+#image-div:hover img{
+    scale:1.1;
+}
+#elem1 h4{
+    font-family: Carnivalee Freakshow;
+    font-size: 22px;
+    margin-top:10px;
+    margin-bottom:6px;
+    font-weight: 300;
+}
+#elem1 h4 span{
+    background-color: #b43b12;
+    color:#C2BBB1;
+    font-weight:100;
+    font-size: 14px;
+    padding:3px;
+    border-radius: 5px;
+    margin-left:10px;
+}
+#elem1 p{
+    font-family:domain;
+    font-weight: 100;
+}
+#elem3 h4{
+    font-family: Carnivalee Freakshow;
+    font-size: 22px;
+    margin-top:10px;
+    margin-bottom:6px;
+    font-weight: 300;
+}
+#elem3 h4 span{
+    background-color: #b43b12;
+    color:#C2BBB1;
+    font-weight:100;
+    font-size: 14px;
+    padding:3px;
+    border-radius: 5px;
+    margin-left:10px;
+}
+#elem3 p{
+    font-family:domain;
+    font-weight: 100;
+}
+#elem2 h2{
+    font-family:Carnivalee Freakshow ;
+    font-size: 60px;
+    font-weight: 100;
+}
+#elem2 h3{
+    font-family: domain;
+    font-size:25px;
+    margin-bottom:20px ;
+}
+#elem2 h6{
+font-family: domain;
+
 }
