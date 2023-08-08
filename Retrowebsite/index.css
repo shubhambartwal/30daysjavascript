@@ -7,7 +7,7 @@
     margin:0px;
 }
 #page1{
-    height:100vh;
+    min-height:100vh;
     width:100vw;
     background-color:#C2BBB1;
 position: relative;
@@ -136,5 +136,15 @@ position: relative;
 }
 #elem2 h6{
 font-family: domain;
-
 }
+#page1 h1{
+    font-size:340px;
+    font-weight:100;
+    font-family: Carnivalee Freakshow;
+    background-color: #222;
+    color:#C2BBB1; 
+    margin:10px;
+    padding:10px 0;
+    line-height: 300px;
+    text-align: center;
+    }
