@@ -138,13 +138,15 @@ position: relative;
 font-family: domain;
 }
 #page1 h1{
-    font-size:340px;
+   
+     /* font-size:330px;*/ 
     font-weight:100;
     font-family: Carnivalee Freakshow;
     background-color: #222;
     color:#C2BBB1; 
-    margin:10px;
-    padding:10px 0;
-    line-height: 300px;
-    text-align: center;
+     margin-left:4%; 
+    padding:5px 0;
+          /*line-height: 300px;  */
+     /* width:96%;  */
+     text-align: center;  
     }
