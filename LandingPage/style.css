@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+  
+}
+    #right{
+        width: 60%;
+        height:100%;
+    }
+    #topright{
+        display:flex;
+        width: 100%;
+        height: 50%; 
+    } 
+#rtopleft{
+    background-image: url("https://plus.unsplash.com/premium_photo-1671117822973-0c2fc8431588?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3JhbmdlJTIwYnJvd258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-size: cover;
+    width: 55%;
+    height: 100%;
+}
+#rtopright{
+   background-image: url("https://media.istockphoto.com/id/1090771750/photo/explosion-of-colored-powder-on-black-background.webp?b=1&s=170667a&w=0&k=20&c=Hv9F8qyL97FIXWR2_1FJ_WPjqJ-3tOFkOat8iWJ7Mfg=");
+   background-position: center;
+    background-size: cover;
+   width: 45%;
+    height:100%;
+}
+
+#bottomright{
+    width: 100%;
+    height: 50%;
+background-image: url(https://media.istockphoto.com/id/1286001324/photo/orange-autumn-background-old-watercolor-paper-texture-painted-marbled-vintage-grunge.webp?b=1&s=170667a&w=0&k=20&c=zcPPhYkbupz21ZJfgDR_4nRveWQ8WO5oYBbDopJP7bU=);
+background-position: center;
+background-size: cover;
+} 
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    padding :20px 30px;
+    background-color: aliceblue;
+}
+#lnavr a{
+   margin-right: 10px;
+   text-decoration: none;
+   color:black;
+   font-weight: 800;
+   font-size: 14px;
+}
+#lnavr i{
+    color:royalblue;
+}
+  #left #textcenter{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#textcenter p{
+    opacity: 0.6;
+    font-size:14px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+    text-decoration: none;
+    color:black;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+#textcenter h1{
+    font-weight: 900;
+    font-size: 90px;
+}
+@media (max-width:500px) {
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    }
+    #main #right{
+        width: 100%;
+    }
+}
